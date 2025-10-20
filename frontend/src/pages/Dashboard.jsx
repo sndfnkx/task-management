@@ -20,7 +20,8 @@ export default function Dashboard() {
   const [success, setSuccess] = useState('');
 
   useEffect(() => {
-    load();
+    load(true);
+ 
   }, []);
 
   async function load() {
