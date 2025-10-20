@@ -1,0 +1,37 @@
+# ===== OS / Editors =====
+.DS_Store
+Thumbs.db
+.idea/
+*.iml
+.vscode/
+*.log
+
+# ===== Maven / Java (backend) =====
+backend/target/
+backend/.mvn/wrapper/maven-wrapper.jar
+
+# Java build artifacts
+*.class
+*.jar
+*.war
+
+# ===== Node / React (frontend) =====
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.parcel-cache/
+
+# Env files (если появятся)
+*.env
+*.env.local
+frontend/.env
+backend/.env
+
+# ===== Coverage / test outputs =====
+frontend/coverage/
+backend/coverage/
+test-results/
+
+# ===== OS garbage =====
+ehthumbs.db
+Desktop.ini
